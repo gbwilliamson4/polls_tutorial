@@ -84,11 +84,11 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'dbofchampions',
-        'USER': 'postgres',
-        'PASSWORD': '1234',
-        'HOST': '127.0.0.1',
-        'PORT': '5432',
+        # 'NAME': 'dbofchampions',
+        # 'USER': 'postgres',
+        # 'PASSWORD': '1234',
+        # 'HOST': '127.0.0.1',
+        # 'PORT': '5432',
     }
 }
 
