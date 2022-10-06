@@ -141,7 +141,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
-CSRF_TRUSTED_ORIGINS = ['https://polls-of-champions.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['https://pollstutorial-production.up.railway.app']
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
